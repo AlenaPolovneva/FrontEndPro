@@ -1,0 +1,16 @@
+.DS_STORE
+node_modules
+scripts/flow/*/.flowconfig
+.idea
+.dist
+node modules
+.package-lock.json
+.grunt
+build/
+remote-repo/
+coverage/
+.flowconfig
+.module-cache
+
+
+
