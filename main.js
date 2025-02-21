@@ -1,1 +1,2 @@
-console.log (5);
+let name = prompt("What's your name?");
+alert(`Hello, ${name}! How are you?`);
