@@ -1,0 +1,12 @@
+.text-block {
+    font-size: 30px;
+    color: #0a0909;
+    padding-bottom: 10px;
+}
+.changed {
+    color: #c50f0f;
+}
+.button {
+    cursor: pointer;
+    border-radius: 5px;
+}
