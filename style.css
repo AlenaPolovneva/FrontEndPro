@@ -1,0 +1,14 @@
+.header {
+    font-family: Arial;
+    padding-left: 10px;
+}
+.delete-btn {
+    background-color: #cfc339;
+    border: 1px solid #2e2a2a;
+    cursor: pointer;
+}
+.add-text {
+    background-color: #cfc339;
+    border: 1px solid #2e2a2a;
+    cursor: pointer;
+}
