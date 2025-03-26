@@ -2,10 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Validation with RegEx</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<form id="regForm" class="regForm">
+    <h2 class="headerMain">We would to help you</h2>
+    <label>
+        <input type="text" name="name" placeholder="Name">
+        <div class ="error" id="error-name"></div>
+    </label>
+    <br>
+    <label>
+         <textarea id="message" name="message"></textarea>
+        <div class ="error" id="error-message"></div>
+    </label>
+    <br>
+    <h3 class="headerForm">How to answer you?</h3>
+    <label>
+        <input type="text" id="phone" name="phone" placeholder="Phone number">
+        <div class ="error" id="error-phone"></div>
+    </label>
+    <br>
+    <label>
+        <input type="email" id="email" name="email" placeholder="Email">
+        <div class ="error" id="error-email"></div>
+    </label>
+    <br>
+    <button type="submit" class="submit-btn">Send message</button>
+</form>
 <script src="main.js"></script>
 </body>
 </html>

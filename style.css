@@ -1,0 +1,29 @@
+.regForm {
+    display: inline-block;
+    width: 30%;
+    height: 50%;
+    background-color: #f4eeee;
+    border-radius: 10px;
+    padding: 30px;
+}
+.headerMain {
+    color: #cf0d92;
+    font-family: Arial;
+    font-size: 30px;
+}
+.headerForm {
+    font-family: Arial;
+    font-size: 20px;
+    color: #4e4747;
+}
+.submit-btn {
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #478acf;
+    border: none;
+    border-radius: 5px;
+}
+
