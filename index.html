@@ -2,10 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+<div class="slider-container">
+    <div class="buttons">
+        <button class="prev">&#10094;</button>
+        <button id="next">&#10095;</button>
+    </div>
+    <div class="slider-wrapper">
+        <div class="slides">
+            <div class="slider">
+                   <img class="slider-img" src="img/alex.jpg" alt="slide-1">
+                <div class="slider-text">
+                    <a class="slider_link" href="#">Команда
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                            <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2" />
+                        </svg>
+                    </a>
+                    <p class="slider-par">Ми звикли брати на себе відповідальність та гарантуємо чесну допомогу.</p>
+                    <div class="slider_name">Олександр Олександровський</div>
+                    <div class="slider_position">Керуючий партнер</div>
+                </div>
+            </div>
+            <div class="slider">
+                <img class="slider-img" src="img/oksana.jpg" alt="slide-1">
+                <div class="slider-text">
+                    <a class="slider_link" href="#">Команда
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                            <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2" />
+                        </svg>
+                    </a>
+                    <p class="slider-par">Ми звикли брати на себе відповідальність та гарантуємо чесну допомогу.</p>
+                    <div class="slider_name">Оксана Кобзар</div>
+                    <div class="slider_position">Партнер по акціонерному капіталу, адвокат</div>
+                </div>
+            </div>
+            <div class="slider">
+                <img class="slider-img" src="img/sergiy.jpg" alt="slide-1">
+                <div class="slider-text">
+                    <a class="slider_link" href="#">Команда
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                            <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2" />
+                        </svg>
+                    </a>
+                    <p class="slider-par">Ми звикли брати на себе відповідальність та гарантуємо чесну допомогу.</p>
+                    <div class="slider_name">Сергій Бінн</div>
+                    <div class="slider_position">Партнер </div>
+                </div>
 
+            </div>
+        </div>
+    </div>
+</div>
+<div class="dots"></div>
 <script src="main.js"></script>
 </body>
 </html>
