@@ -2,10 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
+<div class="container">
+    <h1 class="container-header">ToDoList</h1>
+    <form class="form_container">
+        <input type="text" class="form_input" name="value">
+        <button class="form_btn">Додати</button>
+    </form>
+    <ul class="todo-items">
+        <li class="todo_item">
+            <input type="checkbox">
+            <span class="todo_span">Text</span>
+            <button class="todo_btn">Видалити</button>
+        </li>
+        <li class="todo_item_checked">
+            <input type="checkbox">
+            <span class="todo_span">Text</span>
+            <button class="todo_btn">Видалити</button>
+        </li>
+    </ul>
+</div>
 <script src="main.js"></script>
 </body>
 </html>
