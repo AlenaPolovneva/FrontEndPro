@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+#timer {
+    background-color: #9ee1e1;
+    font-size: 48px;
+}
