@@ -2,10 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post with JSONPlaceholder</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
+<h1>Post</h1>
+<div id="posts"></div>
+<img src="img/anan.svg">
+<h2>Create a new post</h2>
+<form id="postForm">
+    <input type="text" id="title" placeholder="Title" required><br>
+    <textarea id="body" placeholder="The text of the post" required></textarea><br>
+    <button type="submit">Send</button>
+</form>
 <script src="main.js"></script>
 </body>
 </html>
