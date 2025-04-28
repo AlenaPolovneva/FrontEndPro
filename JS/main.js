@@ -1,4 +1,4 @@
-import { loadPosts, setupEventListeners } from './handlers.js';
+import { loadPosts, setupEventListeners } from './ui.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     loadPosts();

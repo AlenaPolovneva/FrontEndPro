@@ -1,6 +1,5 @@
 import { createPost, fetchPosts, fetchComments } from './api.js';
 import { createPostElement, createCommentElement } from './dom.js';
-
 const postsContainer = document.getElementById('posts');
 const postForm = document.getElementById('postForm');
 const titleInput = document.getElementById('title');
