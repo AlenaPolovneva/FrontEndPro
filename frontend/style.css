@@ -1,0 +1,12 @@
+.form {
+    width: 30%;
+    height: 50%;
+    background-color: #f4b542;
+    padding: 30px;
+    text-align: center;
+}
+button {
+    cursor: pointer;
+    background-color: orangered;
+    border-radius: 3px;
+}
